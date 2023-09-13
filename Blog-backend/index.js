@@ -10,14 +10,9 @@ require('./db')
 app.use(bodyParser.json());
 app.use(cors());
 
-
-
 app.get('/', (req, res) => {
     res.json({ message: 'The API is working' });
 });
-
-
-
 
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
