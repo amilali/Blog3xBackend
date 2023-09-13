@@ -6,7 +6,6 @@ const PORT = 8000;
 require('dotenv').config();
 require('./db')
 
-
 app.use(bodyParser.json());
 app.use(cors());
 
